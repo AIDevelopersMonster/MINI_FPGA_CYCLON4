@@ -36,7 +36,6 @@
 # 📡 Требования
 
 * Quartus Prime Lite 18.1
-* USB-Blaster (драйвер установлен)
 * Плата **MINI_FPGA Cyclone IV**
 * Кабель USB-mini
 * Windows (рекомендуется для совместимости с ModelSim/SignalTap)
@@ -45,32 +44,6 @@
 
 # 🧰 Содержание репозитория
 
-```
-/src
-   basic/             - логические элементы, мультиплексоры
-   counters/          - делители, счётчики
-   display/           - семисегментные индикаторы
-   triggers/          - D, JK, 8D триггеры
-   uart/              - UART RX/TX
-   pwm/               - PWM, регулировка duty cycle
-   dds/               - DDS + таблицы ROM
-   adc/               - TLC1543 AD
-   dac/               - AD9708 DA
-/projects
-   led_runner/
-   digital_clock/
-   quiz_system/
-   uart_terminal/
-   dds_generator/
-   pwm_controller/
-/docs
-   mini_fpga_schematic.pdf
-   цифровые_эксперименты.pdf
-   jtag_guide.pdf
-/programming
-   sof/               - временные прошивки
-   jic/               - прошивки для SPI-Flash
-README.md
 ```
 
 ---
